@@ -1,0 +1,30 @@
+/**
+ * Author: Potent Plugins
+ * License: GNU General Public License version 2 or later
+ * License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+ */
+.wcst-trend {
+	font-weight: bold;
+	line-height: 20px;
+}
+.wcst-trend::before {
+	font-family: 'WooCommerce';
+	font-size: 20px;
+	vertical-align: top;
+	margin-right: 3px;
+}
+.wcst-trend-up {
+	color: #008000;
+}
+.wcst-trend-up::before {
+	content: "\e009";
+}
+.wcst-trend-down {
+	color: red;
+}
+.wcst-trend-down::before {
+	content: "\e00a";
+}
+.wcst-trend-none::before {
+	content: "\e033";
+}
